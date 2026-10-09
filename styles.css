@@ -951,6 +951,10 @@ span.text-magenta { color: var(--neon-magenta); }
 
 /* Responsive Design */
 @media (max-width: 900px) {
+    .navbar .btn-primary {
+        display: none;
+    }
+
     .hero .title {
         font-size: 3.5rem;
     }
@@ -997,6 +1001,15 @@ span.text-magenta { color: var(--neon-magenta); }
 }
 
 @media (max-width: 768px) {
+    .hero-content {
+        padding-top: 100px;
+    }
+    
+    .hero-main-logo {
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
     .section-header h2 {
         font-size: 2.5rem;
     }
@@ -1017,6 +1030,24 @@ span.text-magenta { color: var(--neon-magenta); }
 }
 
 @media (max-width: 480px) {
+    .logo-bowling {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    
+    .logo-center {
+        font-size: 0.8rem;
+        letter-spacing: 4px;
+    }
+
+    .hero-content {
+        padding-top: 80px;
+    }
+
+    .hero-main-logo {
+        max-width: 200px;
+    }
+
     .hero .title {
         font-size: 2.5rem;
     }
